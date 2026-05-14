@@ -1,0 +1,29 @@
+{
+  "stations": [
+    {
+      "id": 1,
+      "name": "Workstation 01",
+      "devices": [
+        { "name": "SLIDE 01", "ip": "192.168.1.101", "mac": "AA:BB:CC:DD:EE:01" },
+        { "name": "STAT 01",  "ip": "192.168.1.131", "mac": "AA:BB:CC:DD:EE:02" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Workstation 02",
+      "devices": [
+        { "name": "SLIDE 02", "ip": "192.168.1.102", "mac": "AA:BB:CC:DD:EE:03" },
+        { "name": "STAT 02",  "ip": "192.168.1.132", "mac": "AA:BB:CC:DD:EE:04" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Workstation 03",
+      "devices": [
+        { "name": "SLIDE 03", "ip": "192.168.1.103", "mac": "AA:BB:CC:DD:EE:05" },
+        { "name": "STAT 03",  "ip": "192.168.1.133", "mac": "AA:BB:CC:DD:EE:06" }
+      ]
+    }
+  ],
+  "schedules": []
+}
