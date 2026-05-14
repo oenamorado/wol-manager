@@ -1,2 +1,12 @@
+# WoL Manager Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework for the Flask server (REQUIRED)
 Flask==2.3.3
+
+# Task scheduling for automated wake/shutdown (REQUIRED for schedules feature)
 APScheduler==3.10.4
+
+# Python standard library modules (included with Python, no install needed):
+# - json, socket, subprocess, os, sys, re, time, base64, threading, logging
+# - datetime, concurrent.futures
