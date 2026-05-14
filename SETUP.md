@@ -1,4 +1,4 @@
-# WoL Manager — Setup Guide
+# WoL Manager - Setup Guide
 
 **Important:** WoL Manager currently supports Windows managed machines only. The Flask server can run on any OS, but all devices being managed must be Windows.
 
