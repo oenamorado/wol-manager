@@ -29,21 +29,21 @@ Control, monitor and automate power management of your entire fleet from a singl
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    WoL Manager Server                       │
-│              Flask  ·  Python 3  ·  port 5002              │
+│              Flask  ·  Python 3  ·  port 5002               │
 │                                                             │
-│  stations.json ──► station config  (IPs + MACs)            │
+│  stations.json ──► station config  (IPs + MACs)             │
 │  schedules     ──► APScheduler     (cron-style tasks)       │
 │  logs/         ──► rotating logs   (per-day .log files)     │
 └────────────────────────────┬────────────────────────────────┘
                              │ HTTP / UDP
         ┌────────────────────┼────────────────────┐
         ▼                    ▼                    ▼
-  ┌───────────┐       ┌───────────┐       ┌───────────┐
-  │  Relay    │       │ Station 1 │       │ Station 2 │
-  │           │       │           │       │           │
-  │ wol_agent │       │ wol_agent │       │ wol_agent │
-  │  :9876    │       │  :9876    │       │  :9876    │
-  └───────────┘       └───────────┘       └───────────┘
+  ┌───────────┐        ┌───────────┐        ┌───────────┐
+  │  Relay    │        │ Station 1 │        │ Station 2 │
+  │           │        │           │        │           │
+  │ wol_agent │        │ wol_agent │        │ wol_agent │
+  │  :9876    │        │  :9876    │        │  :9876    │
+  └───────────┘        └───────────┘        └───────────┘
 ```
 
 ### WoL Agent (wol_agent.ps1)
@@ -134,7 +134,7 @@ Or directly:
 python wol_app.py
 ```
 
-Open http://<server-ip>:5002 in your browser.
+Open http://<your-server-ip>:5002 in your browser.
 
 ---
 
