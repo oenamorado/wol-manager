@@ -9,7 +9,7 @@
 ### 1. Clone and prepare the repository
 
 ```bash
-git clone https://github.com/osmelenamorado/wol-manager.git
+git clone https://github.com/oenamorado/wol-manager.git
 cd wol-manager
 ```
 
