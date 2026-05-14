@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.4] — 2026-05-12
+## [3.4] - 2026-05-12
 
 ### Added
 - Initial public release
@@ -23,17 +23,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Responsive web interface
 
 ### Features
-- **Wake on LAN** — Send magic packets to individual devices or entire workstations
-- **Remote Shutdown** — Graceful shutdown via lightweight PowerShell agent
-- **Real-time Status** — Live ping monitoring for every device
-- **Relay Agent** — Overcome subnet limitations
-- **Dual-path WoL** — Relay + direct UDP for maximum reliability
-- **Scheduled Tasks** — Automated wake/shutdown by day and time
-- **Production Mode** — Time-based lock that warns during broadcast hours
-- **Agent Auto-update** — Push new agent versions from the UI
-- **Dark/Light Mode** — Persistent user preference
-- **Persistent Logs** — Full audit trail with timestamps
-- **Auth Support** — Optional basic authentication layer
+- **Wake on LAN** - Send magic packets to individual devices or entire workstations
+- **Remote Shutdown** - Graceful shutdown via lightweight PowerShell agent
+- **Real-time Status** - Live ping monitoring for every device
+- **Relay Agent** - Overcome subnet limitations
+- **Dual-path WoL** - Relay + direct UDP for maximum reliability
+- **Scheduled Tasks** - Automated wake/shutdown by day and time
+- **Production Mode** - Time-based lock that warns during broadcast hours
+- **Agent Auto-update** - Push new agent versions from the UI
+- **Dark/Light Mode** - Persistent user preference
+- **Persistent Logs** - Full audit trail with timestamps
+- **Auth Support** - Optional basic authentication layer
 
 ### Platform Support
 - **Server:** Python 3.8+, Flask 2.x, APScheduler 3.10+
