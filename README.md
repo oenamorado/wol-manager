@@ -134,7 +134,7 @@ Or directly:
 python wol_app.py
 ```
 
-Open http://<your-server-ip>:5002 in your browser.
+Open http://"your-server-ip":5002 in your browser.
 
 ---
 
